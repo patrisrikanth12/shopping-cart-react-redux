@@ -1,0 +1,18 @@
+.cartitem__card {
+  width: 250px;
+  border: 1px solid #ddd;
+  margin: 16px auto;
+}
+
+.cartitem__card img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.cartitem__title {
+  font-size: 20px;
+}
+
+.cartitem__price {
+  
+}

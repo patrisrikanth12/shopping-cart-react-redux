@@ -9,6 +9,8 @@ import './index.css';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
+console.log("Index.js started");
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>
