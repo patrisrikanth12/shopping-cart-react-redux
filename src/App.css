@@ -1,5 +1,27 @@
-.App {
+header {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  padding: 16px;
+}
+
+.toggle-screen-btn {
+  font-size: 20px;
+  padding: 8px 20px;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.toggle-screen-btn:active {
+  background-color: #222;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start ;
+
 }

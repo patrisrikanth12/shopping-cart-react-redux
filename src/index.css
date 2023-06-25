@@ -4,11 +4,16 @@
   box-sizing: border-box;
 }
 
-button {
+.btn {
+  font-size: 12px;
   padding: 8px 20px;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 16px;
-  background-color: #333;
-  color: #eee;
+  background-color: #000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn:active {
+  background-color: #555;
 }

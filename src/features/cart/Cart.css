@@ -2,10 +2,12 @@
   width: 250px;
   border: 1px solid #ddd;
   margin: 16px auto;
+  position: relative;
 }
 
 .cartitem__card img{
   width: 100%;
+  height: 150px;
   object-fit: cover;
 }
 
@@ -15,4 +17,10 @@
 
 .cartitem__price {
   
+}
+
+.delete-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
